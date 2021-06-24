@@ -1,0 +1,137 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+img {
+  display: block;
+  margin-bottom: 1.5rem;
+  width: 60px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+button {
+  padding: 0.75rem;
+  border-radius: 100px;
+  width: 65%;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.karte {
+  margin: 100px auto;
+  width: 60vw;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+}
+.container {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container p {
+  text-align: center;
+  vertical-align: text-bottom;
+}
+.sedans {
+  grid-column: 1/2;
+  background-color: hsl(31, 77%, 52%);
+  height: 40em;
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 22%;
+}
+.sedans button {
+  color: hsl(31, 77%, 52%);
+  transition: ease-out 250ms;
+}
+
+.sedans button:hover {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+.suvs {
+  grid-column: 2/3;
+  background-color: hsl(184, 100%, 22%);
+  height: 40em;
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 11%;
+  position: relative;
+}
+
+.suvs button {
+  color: hsl(31, 77%, 52%);
+  transition: ease-out 250ms;
+}
+
+.suvs button:hover {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.luxury {
+  grid-column: 3/4;
+  background-color: hsl(179, 100%, 13%);
+  height: 40em;
+  width: 90%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.luxury button {
+  color: hsl(31, 77%, 52%);
+  transition: ease-out 250ms;
+}
+
+.luxury button:hover {
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+
+  .karte {
+    padding: 3rem;
+  }
+
+  button {
+    width: 60%;
+  }
+}
+
+.attribution {
+  text-align: center;
+}
