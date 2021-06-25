@@ -89,6 +89,7 @@ button {
 .suvs button {
   color: hsl(31, 77%, 52%);
   transition: ease-out 250ms;
+  margin-top: -25px;
 }
 
 .suvs button:hover {
